@@ -1,0 +1,14 @@
+	
+objects=na_log.o na_pthread.o na_queue.o,dbhelper.o sqlite_operation1.o
+edit:$(objects)
+	gcc -o edit $(objects)
+
+na_log.o : na_core.h na_log.h
+na_pthread.o : na_core.h na_pthread.h
+na_queue.o : na_core.h na_queue.h
+dbhelper.o : na_core.h dbhelper.h
+sqlite_operation1.o : na_core.h,sqlite_operation1.h
+
+PHONY : clean
+clean:
+	rm edit $(objects)

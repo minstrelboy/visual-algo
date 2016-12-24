@@ -1,0 +1,11 @@
+#include "na_core.h"
+
+typedef struct userinfo_s{
+        int userid;
+        char username[32];
+        na_queue_t queue;
+}userinfo_t;
+
+void free_userinfo_t(na_queue_t *h);
+
+int create_userinfo_t(sqlite3_stmt * stmt,void * arg);
