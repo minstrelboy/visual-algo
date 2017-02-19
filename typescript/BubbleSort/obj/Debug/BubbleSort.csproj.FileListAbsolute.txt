@@ -1,0 +1,6 @@
+F:\SourceCode\TypeScriptDemo\BubbleSort\bin\BubbleSort.dll.config
+F:\SourceCode\TypeScriptDemo\BubbleSort\bin\BubbleSort.dll
+F:\SourceCode\TypeScriptDemo\BubbleSort\bin\BubbleSort.pdb
+F:\SourceCode\TypeScriptDemo\BubbleSort\obj\Debug\BubbleSort.csprojResolveAssemblyReference.cache
+F:\SourceCode\TypeScriptDemo\BubbleSort\obj\Debug\BubbleSort.dll
+F:\SourceCode\TypeScriptDemo\BubbleSort\obj\Debug\BubbleSort.pdb

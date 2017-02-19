@@ -1,0 +1,5 @@
+F:\SourceCode\TypeScriptDemo\InsertionSort\bin\InsertionSort.dll.config
+F:\SourceCode\TypeScriptDemo\InsertionSort\bin\InsertionSort.dll
+F:\SourceCode\TypeScriptDemo\InsertionSort\bin\InsertionSort.pdb
+F:\SourceCode\TypeScriptDemo\InsertionSort\obj\Debug\InsertionSort.dll
+F:\SourceCode\TypeScriptDemo\InsertionSort\obj\Debug\InsertionSort.pdb
