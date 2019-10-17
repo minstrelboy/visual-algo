@@ -4,3 +4,10 @@ F:\SourceCode\TypeScriptDemo\BubbleSort\bin\BubbleSort.pdb
 F:\SourceCode\TypeScriptDemo\BubbleSort\obj\Debug\BubbleSort.csprojResolveAssemblyReference.cache
 F:\SourceCode\TypeScriptDemo\BubbleSort\obj\Debug\BubbleSort.dll
 F:\SourceCode\TypeScriptDemo\BubbleSort\obj\Debug\BubbleSort.pdb
+F:\github\BlogCode\typescript\BubbleSort\bin\BubbleSort.dll.config
+F:\github\BlogCode\typescript\BubbleSort\bin\BubbleSort.dll
+F:\github\BlogCode\typescript\BubbleSort\bin\BubbleSort.pdb
+F:\github\BlogCode\typescript\BubbleSort\obj\Debug\BubbleSort.csprojAssemblyReference.cache
+F:\github\BlogCode\typescript\BubbleSort\obj\Debug\BubbleSort.csproj.CoreCompileInputs.cache
+F:\github\BlogCode\typescript\BubbleSort\obj\Debug\BubbleSort.dll
+F:\github\BlogCode\typescript\BubbleSort\obj\Debug\BubbleSort.pdb

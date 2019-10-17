@@ -1,6 +1,6 @@
 var Graphics;
 (function (Graphics) {
-    var Rectangle = (function () {
+    var Rectangle = /** @class */ (function () {
         function Rectangle(x, y, width, height, color) {
             this.x = x;
             this.y = y;
@@ -15,7 +15,7 @@ var Graphics;
         return Rectangle;
     }());
     Graphics.Rectangle = Rectangle;
-    var Line = (function () {
+    var Line = /** @class */ (function () {
         function Line(x, y, x1, y1, color) {
             this.x = x;
             this.y = y;
@@ -36,7 +36,7 @@ var Graphics;
         return Line;
     }());
     Graphics.Line = Line;
-    var Sprite = (function () {
+    var Sprite = /** @class */ (function () {
         function Sprite(context, grapeinterface, startx, starty, endx, endy, xspeed, yspeed, starttime, actiontime, arrived) {
             this.context = context;
             this.grapeinterface = grapeinterface;
@@ -89,7 +89,7 @@ var SortState;
     SortState[SortState["Switch"] = 1] = "Switch";
     SortState[SortState["End"] = 2] = "End";
 })(SortState || (SortState = {}));
-var TNode = (function () {
+var TNode = /** @class */ (function () {
     function TNode(value, point, context) {
         this.value = value;
         this.point = point;
@@ -135,7 +135,7 @@ var TNode = (function () {
     };
     return TNode;
 }());
-var State = (function () {
+var State = /** @class */ (function () {
     function State(width, height) {
         var _this = this;
         this.width = width;

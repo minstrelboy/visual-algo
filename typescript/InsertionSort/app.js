@@ -307,9 +307,11 @@ var State = (function () {
         this.line = new Graphics.Line(20, 502, 780, 500, "black");
         this.shadowInsertNode = new Graphics.DashedRectangle(20, 500, 100, 100, "black");
         this.background = new Graphics.Rectangle(0, 0, 800, 600, "white");
-        //this.canvas.addEventListener("click", () => {
-        //    this.start();
-        //});
+        this.ctx.font = "bold 40px Arial";
+        this.ctx.fillText("点击开始", 100, 100);
+        this.canvas.onclick = function () {
+            _this.start();
+        };
     }
     State.prototype.drawbackground = function () {
         this.background.draw(this.ctx);
@@ -366,7 +368,13 @@ var State = (function () {
     return State;
 }());
 window.onload = function () {
+    //const btn = document.createElement("input");
+    //btn.type = "button";
+    //btn.value = "click me start";
+    //btn.onclick = () => {
     var state = new State(800, 600);
-    state.start();
+    //state.start();
+    //};
+    //document.body.appendChild(btn);
 };
 //# sourceMappingURL=app.js.map
